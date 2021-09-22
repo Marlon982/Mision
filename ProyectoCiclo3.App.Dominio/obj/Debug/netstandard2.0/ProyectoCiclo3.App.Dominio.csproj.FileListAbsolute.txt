@@ -1,0 +1,9 @@
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb

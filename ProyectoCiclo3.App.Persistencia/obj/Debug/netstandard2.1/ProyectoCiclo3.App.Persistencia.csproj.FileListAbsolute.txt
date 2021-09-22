@@ -1,0 +1,12 @@
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csprojAssemblyReference.cache
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfoInputs.cache
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfo.cs
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb

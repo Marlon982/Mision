@@ -1,0 +1,34 @@
+@page
+@{
+}
+
+@* <div class="text-center"> *@
+<form action="" class="row g-3">
+    <div class="col-md-4">
+        @* Pendiente por validar origen y destino *@
+        <label for="origen" class="form-label">Origen:</label>
+        <input type="number" class="form-control" id="origen" name="origen" placeholder="Origen">
+    </div>
+    <div class="col-md-4">
+        <label for="destino" class="form-label">Destino:</label>
+        <input type="number" class="form-control" id="destino" name="destino" placeholder="Destino">
+    </div>
+    <div class="col-md">
+        <label for="fecha" class="form-label">Fecha:</label>
+        <input type="datetime" class="form-control" id="fecha" name="fecha" placeholder="Fecha">
+    </div>
+    <div class="col-md">
+        <label for="hora" class="form-label">Hora:</label>
+        <input type="number" class="form-control" id="hora" name="hora" placeholder="Hora">
+        @* Pendiente por definir *@
+    </div>
+    <div class="col-12">
+        <label for="encomienda" class="form-label">Encomienda:</label>
+        <input type="text" class="form-control" id="encomienda" name="encomienda" placeholder="Encomienda">
+    </div>
+    <div class="col-12 text-center">
+        <hr>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </div>
+</form>
+@* </div> *@
