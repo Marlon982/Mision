@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
+    "E:\\mintic\\Ciclo III\\ProyectoEquipo\\MisionTicCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
   },
   "projects": {
-    "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
+    "E:\\mintic\\Ciclo III\\ProyectoEquipo\\MisionTicCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "projectUniqueName": "E:\\mintic\\Ciclo III\\ProyectoEquipo\\MisionTicCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
         "projectName": "ProyectoCiclo3.App.Frontend",
-        "projectPath": "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Marlon JG\\.nuget\\packages\\",
-        "outputPath": "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\obj\\",
+        "projectPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo\\MisionTicCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\ricardo\\.nuget\\packages\\",
+        "outputPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo\\MisionTicCiclo3\\ProyectoCiclo3.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marlon JG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }
