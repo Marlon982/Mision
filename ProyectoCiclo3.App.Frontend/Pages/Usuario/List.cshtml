@@ -1,42 +1,36 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.ListUsuariosModel
 @{
 }
-<div class="row mt-3">
-  <div class="col-1"></div>
-  <div class="col-9">
-    <table class="table table-striped table-hover table-bordered">
-      <thead>
-        <tr class="text-center text-uppercase fs-4">
-          <th scope="col">id</th>
-          <th scope="col">Nombre</th>
-          <th scope="col">Apellidos</th>
-          <th scope="col">Dirección</th>
-          <th scope="col">Teléfono</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Marlon</td>
-          <td>Jiménez G</td>
-          <td>Transversal 78 #1-23</td>
-          <td>3112345678</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+
+<h1>Listado de Usuarios</h1>
+<table class="table">
+
+  <thead>
+    <tr class="text-center text-uppercase fs-4">
+      <th scope="col">id</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">Dirección</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Teléfono</th>
+    </tr>
+  </thead>
+  @foreach (var Usuarios in Model.Usuarios)
+  {
+    <tr>
+      <td>@Usuarios.id</td>
+      <td>@Usuarios.nombre</td>
+      <td>@Usuarios.apellidos</td>
+      <td>@Usuarios.direccion</td>
+      <td>@Usuarios.ciudad</td>
+      <td>@Usuarios.telefono</td>
+      <td>
+        <a class="btn btn-success" asp-page="./Details" asp-route-UsuariosId="@Usuarios.id"><i
+          class="fas fa-adjust"></i>Ver</a>
+        <a class="btn btn-info" href="">Editar</a>
+        <a class="btn btn-danger" href="">Eliminar</a>
+      </td>
+    </tr>
+  }
+</table>

@@ -5,6 +5,7 @@ namespace ProyectoCiclo3.App.Dominio{
         public string nombre {get;set;}
         public string apellidos {get;set;}
         public string direccion {get;set;}
+        public string ciudad {get;set;}
         public string telefono {get;set;}
     }
 }
