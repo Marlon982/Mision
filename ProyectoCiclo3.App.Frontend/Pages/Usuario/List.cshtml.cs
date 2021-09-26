@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
  
-namespace ProyectoCiclo3.App.Frontend.Pages
+namespace ProyectoCiclo3.App.Frontend.Pages 
 {
     public class ListUsuariosModel : PageModel
     {

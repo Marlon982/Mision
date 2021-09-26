@@ -13,7 +13,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
        private readonly RepositorioUsuarios repositorioUsuarios;
               public Usuarios Usuarios {get;set;}
- 
+  
         public DetailsUsuariosModel(RepositorioUsuarios repositorioUsuarios)
        {
             this.repositorioUsuarios=repositorioUsuarios;

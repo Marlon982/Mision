@@ -1,8 +1,10 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.ListEncomiendaModel
 @{
 }
 
-<table class="table table-striped table-hover table-bordered">
+<h1>Listado de Encomiendas</h1>
+<table class="table">
   <thead>
     <tr class="text-center fs-4">
       <th scope="col" class="text-uppercase">id</th>
@@ -12,27 +14,20 @@
       <th scope="col" class="text-uppercase">Presentación</th>
     </tr>
   </thead>
-  <tbody>
+  @foreach (var Encomienda in Model.Encomienda)
+  {
     <tr>
-      <th scope="row">1</th>
-      <td>Elementos varios (accesorios, juguetes)</td>
-      <td>24</td>
-      <td>Paquete</td>
-      <td>Caja (12cm x 5cm)</td>
+      <td>@Encomienda.id</td>
+      <td>@Encomienda.descripcion</td>
+      <td>@Encomienda.peso</td>
+      <td>@Encomienda.tipo</td>
+      <td>@Encomienda.presentacion</td>
+      <td>
+        <a class="btn btn-success" asp-page="./Details" asp-route-EncomiendaId="@Encomienda.id"><i
+          class="fas fa-adjust"></i>Ver</a>
+        <a class="btn btn-info" href="">Editar</a>
+        <a class="btn btn-danger" href="">Eliminar</a>
+      </td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
+  }
 </table>

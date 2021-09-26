@@ -5,6 +5,6 @@ namespace ProyectoCiclo3.App.Dominio{
         public string descripcion {get;set;}
         public int peso {get;set;}
         public string tipo {get;set;}
-        public string presentacion {get;set;}
+        public string presentacion {get;set;} 
     }
 }
