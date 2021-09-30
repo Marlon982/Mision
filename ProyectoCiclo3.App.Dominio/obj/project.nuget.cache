@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aUlRI8REJVDIFEqk14kIMr/ke5WvPav+nExp/NdLWZFqzubTgHSo5MkXVFcjzd+TfqmXyOQ3GFV9yYUvFjJH4w==",
+  "dgSpecHash": "14VbbkJd0RN9hudua6TRuvA2hZOqOMwrXqAcyRX9FXaJ0Sb2NBwHWoPySU/5qJiUj8wXrA2dQIwXn8Lt3a74rQ==",
   "success": true,
-  "projectFilePath": "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Marlon JG\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Marlon JG\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ricardo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ricardo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
