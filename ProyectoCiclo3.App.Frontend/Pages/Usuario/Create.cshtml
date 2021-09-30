@@ -1,21 +1,24 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.FormUsuarioModel
 @{
 }
 
 @* <div class="text-start"> *@
 @* text-center mb-3*@
-<form action="" class="row g-3">
-    @* <label for="id" class="form-label">ID:</label> *@
-    @* <input type="number" class="form-control" id="id" name="id" placeholder="ID"> *@
-    <div class="col-md-6">
-        <label for="nombre" class="form-label">Nombre:</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre...">
+<form method="post" class="row g-3">
+    <div class="col-md-1">
+    <label for="id" class="form-label">ID:</label>
+    <input type="number" class="form-control" id="id" name="id" placeholder="ID">
+    </div>
+    <div class="col-md-5">
+        <label for="nombre" class="form-label">Nombres:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombres...">
     </div>
     <div class="col-md-6">
         <label for="apellidos" class="form-label">Apellidos:</label>
         <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellidos...">
     </div>
-    <div></div>
+    <div class="col-md-12"><p></p></div>
     <div class="col-sm-6">
         <label for="direccion" class="form-label">Dirección:</label>
         <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección...">
@@ -26,12 +29,8 @@
     </div>
     <div class="col-sm-3">
         <label for="telefono" class="form-label">Teléfono:</label>
-        <input type="number" class="form-control" id="telefono" name="telefono" placeholder="Teléfono...">
+        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono...">
     </div>
-    @* <label for="edad" class="form-label">Edad:</label> *@
-    @* <input type="number" class="form-control" id="edad" name="edad" placeholder="Edad"> *@
-    @* <label for="email" class="form-label">Email:</label> *@
-    @* <input type="email" class="form-control" id="email" name="email" placeholder="Email"> *@
 
     <div class="col-12 text-center">
         <hr>

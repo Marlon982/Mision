@@ -13,7 +13,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         {
             Usuarios= new List<Usuarios>()
             {
-                new Usuarios{id=1,nombre="Carlos",apellidos= "Bustamante Castro",direccion= "Calle 5 # 24-44",ciudad= "Bogotá",telefono= "(1)444-4444"},
+                new Usuarios{id=1,nombre="Carlos",apellidos= "Bustamante Castro",direccion= "Calle 5 # 24-44",ciudad= "Bogotá",telefono= "4444444"},
                 new Usuarios{id=2,nombre="Maria",apellidos= "Ramirez Roa",direccion= "Carrera 24 # 120A-12",ciudad= "Bogotá",telefono= "(1)123-4567"},
                 new Usuarios{id=3,nombre="Alberto",apellidos= "Molina Herrera",direccion= "Transversal 78I #12G-56",ciudad= "Medellin",telefono= "(7)666-9876"}
  
@@ -28,5 +28,18 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Usuarios GetUsuariosWithId(int id){
             return Usuarios.SingleOrDefault(b => b.id == id);
         }
+
+        public Usuarios Update(Usuarios newUsuarios){
+            var usuario= Usuarios.SingleOrDefault(b => b.id == newUsuarios.id);
+            if(usuario != null){
+                usuario.nombre = newUsuarios.nombre;
+                usuario.apellidos = newUsuarios.apellidos;
+                usuario.direccion = newUsuarios.direccion;
+                usuario.ciudad = newUsuarios.ciudad;
+                usuario.telefono = newUsuarios.telefono;
+            }
+        return usuario;
+        }
+
     }
 }

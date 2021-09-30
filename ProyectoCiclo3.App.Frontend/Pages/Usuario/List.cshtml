@@ -8,8 +8,8 @@
 
   <thead>
     <tr class="text-center text-uppercase fs-4">
-      <th scope="col">id</th>
-      <th scope="col">Nombre</th>
+      <th scope="col">ID</th>
+      <th scope="col">Nombres</th>
       <th scope="col">Apellidos</th>
       <th scope="col">Dirección</th>
       <th scope="col">Ciudad</th>
@@ -28,7 +28,7 @@
       <td>
         <a class="btn btn-success" asp-page="./Details" asp-route-UsuariosId="@Usuarios.id"><i
           class="fas fa-adjust"></i>Ver</a>
-        <a class="btn btn-info" href="">Editar</a>
+        <a class="btn btn-info" asp-page="./Edit" asp-route-UsuariosId="@Usuarios.id">Editar</a>
         <a class="btn btn-danger" href="">Eliminar</a>
       </td>
     </tr>
