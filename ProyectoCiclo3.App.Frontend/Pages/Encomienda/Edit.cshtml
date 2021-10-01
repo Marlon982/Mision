@@ -1,17 +1,18 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.FormEncomiendaModel
+@model ProyectoCiclo3.App.Frontend.Pages.EditEncomiendaModel
 @{
+    var Encomienda = Model.Encomienda;
 }
 
 @* <div class="text-center"> *@
 <form method="post" class="row g-3">
     <div class="col-md-1">
     <label for="id" class="form-label">ID:</label>
-    <input type="number" class="form-control" id="id" name="id" placeholder="ID">
+    <input type="number" class="form-control" id="id" name="id" placeholder="ID" asp-for="@Encomienda.id">
     </div>
     <div class="col-11">
         <label for="descripcion" class="form-label">Descripcion:</label>
-        <input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="Descripcion">
+        <input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="Descripcion" asp-for="@Encomienda.descripcion">
     </div>
     <div class="col-md-12"><p></p></div>
     
@@ -21,16 +22,16 @@
             <div class="input-group-text">
                 Kg
             </div>
-            <input type="number" class="form-control" id="peso" name="peso" placeholder="Peso">
+            <input type="number" class="form-control" id="peso" name="peso" placeholder="Peso" asp-for="@Encomienda.peso">
         </div>
     </div>
     <div class="col-md-4">
         <label for="tipo" class="form-label">Tipo:</label>
-        <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Tipo">
+        <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Tipo" asp-for="@Encomienda.tipo">
     </div>
     <div class="col-md-5">
         <label for="presentacion" class="form-label">Presentación:</label>
-        <input type="text" class="form-control" id="presentacion" name="presentacion" placeholder="Presentación">
+        <input type="text" class="form-control" id="presentacion" name="presentacion" placeholder="Presentación" asp-for="@Encomienda.presentacion">
     </div>
     <div class="col-12 text-center">
         <hr>

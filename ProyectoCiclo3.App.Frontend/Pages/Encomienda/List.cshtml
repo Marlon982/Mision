@@ -7,7 +7,7 @@
 <table class="table">
   <thead>
     <tr class="text-center fs-4">
-      <th scope="col" class="text-uppercase">id</th>
+      <th scope="col" class="text-uppercase">id/th>
       <th scope="col" class="text-uppercase">Descripción</th>
       <th scope="col">PESO Kg</th>
       <th scope="col" class="text-uppercase">Tipo</th>
@@ -25,7 +25,7 @@
       <td>
         <a class="btn btn-success" asp-page="./Details" asp-route-EncomiendaId="@Encomienda.id"><i
           class="fas fa-adjust"></i>Ver</a>
-        <a class="btn btn-info" href="">Editar</a>
+        <a class="btn btn-info" asp-page="./Edit" asp-route-EncomiendaId="@Encomienda.id">Editar</a>
         <a class="btn btn-danger" href="">Eliminar</a>
       </td>
     </tr>

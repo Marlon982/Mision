@@ -9,36 +9,35 @@ using ProyectoCiclo3.App.Dominio;
  
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class EditUsuariosModel : PageModel
+    public class EditEncomiendaModel : PageModel
     {
-       private readonly RepositorioUsuarios repositorioUsuarios;
-              [BindProperty]
-              public Usuarios Usuarios {get;set;}
+       private readonly RepositorioEncomienda repositorioEncomienda;
+               [BindProperty]
+              public Encomienda Encomienda {get;set;}
   
-        public EditUsuariosModel(RepositorioUsuarios repositorioUsuarios)
+        public EditEncomiendaModel(RepositorioEncomienda repositorioEncomienda)
        {
-            this.repositorioUsuarios=repositorioUsuarios;
+            this.repositorioEncomienda=repositorioEncomienda;
        }
  
-        public IActionResult OnGet(int UsuariosId)
+        public IActionResult OnGet(int EncomiendaId)
         {
-                Usuarios=repositorioUsuarios.GetUsuariosWithId(UsuariosId);
+                Encomienda=repositorioEncomienda.GetEncomiendaWithId(EncomiendaId);
                 return Page();
  
         }
-        
+
         public IActionResult OnPost()
         {
             if(!ModelState.IsValid)
             {
                 return Page();
             }
-            if(Usuarios.id>0)
+            if(Encomienda.id>0)
             {
-            Usuarios = repositorioUsuarios.Update(Usuarios);
+            Encomienda = repositorioEncomienda.Update(Encomienda);
             }
             return RedirectToPage("./List");
         }
-
     }
 }
