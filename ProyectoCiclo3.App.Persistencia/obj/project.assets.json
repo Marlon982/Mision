@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marlon JG\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "projectUniqueName": "E:\\USUARIO\\Documents\\TIC\\Programacion\\Proyecto ciclo 3\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
       "projectName": "ProyectoCiclo3.App.Persistencia",
-      "projectPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Marlon JG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
+      "projectPath": "E:\\USUARIO\\Documents\\TIC\\Programacion\\Proyecto ciclo 3\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "E:\\USUARIO\\Documents\\TIC\\Programacion\\Proyecto ciclo 3\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Marlon JG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+            "E:\\USUARIO\\Documents\\TIC\\Programacion\\Proyecto ciclo 3\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+              "projectPath": "E:\\USUARIO\\Documents\\TIC\\Programacion\\Proyecto ciclo 3\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
             }
           }
         }
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
       }
     }
   }
