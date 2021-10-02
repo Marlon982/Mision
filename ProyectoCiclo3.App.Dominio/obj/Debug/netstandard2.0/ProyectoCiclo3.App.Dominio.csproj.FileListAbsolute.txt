@@ -7,7 +7,6 @@ D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.Ap
 D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
-<<<<<<< Updated upstream
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
@@ -17,14 +16,3 @@ C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\ob
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
-=======
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
->>>>>>> Stashed changes

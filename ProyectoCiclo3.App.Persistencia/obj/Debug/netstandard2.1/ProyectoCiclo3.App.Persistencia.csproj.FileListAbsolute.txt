@@ -10,7 +10,6 @@ D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.Ap
 D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
 D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
 D:\certificados\MISION TIC 2022\3 DESARROLLO 27\Proyecto clase\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
-<<<<<<< Updated upstream
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
@@ -23,17 +22,3 @@ C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistenc
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
-=======
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csprojAssemblyReference.cache
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfoInputs.cache
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfo.cs
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CoreCompileInputs.cache
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
-C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
->>>>>>> Stashed changes
