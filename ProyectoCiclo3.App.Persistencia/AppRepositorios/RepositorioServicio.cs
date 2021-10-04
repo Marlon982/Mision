@@ -5,11 +5,11 @@ using System;
  
 namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
-    public class RepositorioServicios
+    public class RepositorioServicio
     {
         List<Servicios> servicios;
  
-    public RepositorioServicios()
+    public RepositorioServicio()
         {
             servicios= new List<Servicios>()
             {
@@ -25,8 +25,41 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return servicios;
         }
  
-        public Servicios GetServicioWithId(int id){
+        public Servicios GetServiciosWithId(int id){
             return servicios.SingleOrDefault(b => b.id == id);
         }
+
+        public Servicios Update(Servicios newServicios){
+
+            var servicio= servicios.SingleOrDefault(b => b.id == newServicios.id);
+
+            if(servicio != null){
+                servicio.origen = newServicios.origen;
+                servicio.destino = newServicios.destino;
+                servicio.fecha = newServicios.fecha;
+                servicio.hora = newServicios.hora;
+                servicio.encomienda = newServicios.encomienda;
+                
+            }
+        return servicio;
+        }
+        public Servicios Create(Servicios newServicios)
+        {
+           if(servicios.Count > 0){
+           newServicios.id=servicios.Max(r => r.id) +1; 
+            }else{
+               newServicios.id = 1; 
+            }
+           servicios.Add(newServicios);
+           return newServicios;
+        }
+
+           public void Delete(int id)
+        {
+        var servic= servicios.SingleOrDefault(b => b.id == id);
+        servicios.Remove(servic);
+        return;
+        }
+
     }
 }

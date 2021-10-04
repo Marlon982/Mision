@@ -9,21 +9,32 @@ using ProyectoCiclo3.App.Dominio;
  
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class ListServicioModel : PageModel
+    public class ListServiciosModel : PageModel
     {
        
-        private readonly RepositorioServicios repositorioServicios;
+        private readonly RepositorioServicio repositorioServicio;
+        [BindProperty]
+        public Servicios Servic {get;set;}
         public IEnumerable<Servicios> Servicios {get;set;}
  
-    public ListServicioModel(RepositorioServicios repositorioServicios)
+    public ListServiciosModel(RepositorioServicio repositorioServicio)
     {
-        this.repositorioServicios=repositorioServicios;
+        this.repositorioServicio=repositorioServicio;
      }
  
     public void OnGet()
     {
-        Servicios=repositorioServicios.GetAll();
+        Servicios=repositorioServicio.GetAll();
     }
+    public IActionResult OnPost()
+    {
+        if(Servic.id>0)
+        {
+        repositorioServicio.Delete(Servic.id);
+        }
+        return RedirectToPage("./List");
+    }
+    
     }
 }
 

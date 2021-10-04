@@ -11,17 +11,17 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 {
     public class DetailsServicioModel : PageModel
     {
-       private readonly RepositorioServicios repositorioServicios;
+       private readonly RepositorioServicio repositorioServicio;
               public Servicios Servicio {get;set;}
  
-        public DetailsServicioModel(RepositorioServicios repositorioServicios)
+        public DetailsServicioModel(RepositorioServicio repositorioServicio)
        {
-            this.repositorioServicios=repositorioServicios;
+            this.repositorioServicio=repositorioServicio;
        }
  
         public IActionResult OnGet(int servicioId)
         {
-                Servicio=repositorioServicios.GetServicioWithId(servicioId);
+                Servicio=repositorioServicio.GetServiciosWithId(servicioId);
                 return Page();
  
         }
