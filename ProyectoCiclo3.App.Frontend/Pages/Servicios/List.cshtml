@@ -2,16 +2,18 @@
 @model ProyectoCiclo3.App.Frontend.Pages.ListServiciosModel
 @{
 }
- 
+
 <h1>Listado de Servicios</h1>
 <table class="table">
     <thead>
-        <th>Id</th>
-        <th>Origen</th>
-        <th>Destino</th>
-        <th>Fecha</th>
-        <th>Hora</th>
-        <th>Encomienda</th>
+        <tr class="text-center text-uppercase fs-4">
+            <th scope="col">Id</th>
+            <th scope="col">Origen</th>
+            <th scope="col">Destino</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Hora</th>
+            <th scope="col">Encomienda</th>
+        </tr>
     </thead>
     @foreach (var Servicio in Model.Servicios)
     {
@@ -23,13 +25,15 @@
             <td>@Servicio.hora</td>
             <td>@Servicio.encomienda</td>
             <td>
-              <a class="btn btn-info" asp-page="./Details" asp-route-servicioId="@Servicio.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" asp-page="./Edit" asp-route-servicioId="@Servicio.id">Editar</a>
-              <form method="POST">
-              <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@Servicio.id">
-                <button type="submit"class="btn btn-danger" href="">Eliminar</button>
-              </form>
-              </td>
+                <a class="btn btn-success" asp-page="./Details" asp-route-servicioId="@Servicio.id"><i
+                    class="fas fa-adjust"></i>Ver</a>
+                <a class="btn btn-info" asp-page="./Edit" asp-route-servicioId="@Servicio.id">Editar</a>
+                <form method="POST">
+                    <input type="number" class="form-control d-none" id="id" name="id" placeholder="id"
+                    asp-for="@Servicio.id">
+                    <button type="submit" class="btn btn-danger" href="">Eliminar</button>
+                </form>
+            </td>
         </tr>
     }
 </table>

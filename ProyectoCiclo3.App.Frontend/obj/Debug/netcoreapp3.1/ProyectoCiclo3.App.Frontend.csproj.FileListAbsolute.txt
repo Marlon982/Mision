@@ -271,3 +271,5 @@ E:\USUARIO\Documents\TIC\Programacion\Proyecto ciclo 3\MisionTicCiclo3\ProyectoC
 E:\USUARIO\Documents\TIC\Programacion\Proyecto ciclo 3\MisionTicCiclo3\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.pdb
 E:\USUARIO\Documents\TIC\Programacion\Proyecto ciclo 3\MisionTicCiclo3\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.genruntimeconfig.cache
 E:\USUARIO\Documents\TIC\Programacion\Proyecto ciclo 3\MisionTicCiclo3\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Details.cshtml.g.cs
+C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Details.cshtml.g.cs
+C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Edit.cshtml.g.cs

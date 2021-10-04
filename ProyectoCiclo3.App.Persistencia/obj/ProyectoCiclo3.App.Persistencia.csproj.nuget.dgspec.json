@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {}
+    "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {}
   },
   "projects": {
-    "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+    "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\ricardo\\.nuget\\packages\\",
-        "outputPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Marlon JG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Marlon JG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -53,21 +53,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+    "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
         "projectName": "ProyectoCiclo3.App.Persistencia",
-        "projectPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\ricardo\\.nuget\\packages\\",
-        "outputPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Marlon JG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Marlon JG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-                "projectPath": "E:\\mintic\\Ciclo III\\ProyectoEquipo2\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+              "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
               }
             }
           }
@@ -129,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

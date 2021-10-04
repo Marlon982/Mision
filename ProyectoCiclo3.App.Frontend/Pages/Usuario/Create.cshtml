@@ -6,30 +6,26 @@
 @* <div class="text-start"> *@
 @* text-center mb-3*@
 <form method="post" class="row g-3">
-    <div class="col-md-1">
-    <label for="id" class="form-label">ID:</label>
-    <input type="number" class="form-control" id="id" name="id" placeholder="ID">
-    </div>
-    <div class="col-md-5">
+    <div class="col-md-6">
         <label for="nombre" class="form-label">Nombres:</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombres...">
+        <input type="text" class="form-control" id="nombre" placeholder="Nombres..." asp-for="Usuarios.nombre">
     </div>
     <div class="col-md-6">
         <label for="apellidos" class="form-label">Apellidos:</label>
-        <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellidos...">
+        <input type="text" class="form-control" id="apellidos" placeholder="Apellidos..." asp-for="Usuarios.apellidos">
     </div>
     <div class="col-md-12"><p></p></div>
     <div class="col-sm-6">
         <label for="direccion" class="form-label">Dirección:</label>
-        <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección...">
+        <input type="text" class="form-control" id="direccion" placeholder="Dirección..." asp-for="Usuarios.direccion">
     </div>
     <div class="col-sm-3">
         <label for="ciudad" class="form-label">Ciudad:</label>
-        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad...">
+        <input type="text" class="form-control" id="ciudad" placeholder="Ciudad..." asp-for="Usuarios.ciudad">
     </div>
     <div class="col-sm-3">
         <label for="telefono" class="form-label">Teléfono:</label>
-        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono...">
+        <input type="text" class="form-control" id="telefono" placeholder="Teléfono..." asp-for="Usuarios.telefono">
     </div>
 
     <div class="col-12 text-center">

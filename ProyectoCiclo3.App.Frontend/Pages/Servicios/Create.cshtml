@@ -8,13 +8,12 @@
 <form method="post" class="row g-3">
    
     <div class="col-md-4">
-        @* Pendiente por validar origen y destino *@
         <label for="origen" class="form-label">Origen:</label>
-        <input type="number" class="form-control" id="origen" placeholder="Origen" asp-for="Servicios.origen">
+        <input type="text" class="form-control" id="origen" placeholder="Origen" asp-for="Servicios.origen">
     </div>
     <div class="col-md-4">
         <label for="destino" class="form-label">Destino:</label>
-        <input type="number" class="form-control" id="destino" placeholder="Destino" asp-for="Servicios.destino">
+        <input type="text" class="form-control" id="destino" placeholder="Destino" asp-for="Servicios.destino">
     </div>
     <div class="col-md">
         <label for="fecha" class="form-label">Fecha:</label>
@@ -23,7 +22,6 @@
     <div class="col-md">
         <label for="hora" class="form-label">Hora:</label>
         <input type="time" class="form-control" id="hora" placeholder="Hora" asp-for="Servicios.hora">
-        @* Pendiente por definir *@
     </div>
     <div class="col-md-12"><p></p></div>
     
