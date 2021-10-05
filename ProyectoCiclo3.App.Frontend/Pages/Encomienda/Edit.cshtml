@@ -6,11 +6,10 @@
 
 @* <div class="text-center"> *@
 <form method="post" class="row g-3">
-    <div class="col-md-1">
-    <label for="id" class="form-label">ID:</label>
-    <input type="number" class="form-control" id="id" name="id" placeholder="ID" asp-for="@Encomienda.id">
-    </div>
-    <div class="col-11">
+    @* <label for="id" class="form-label">ID:</label> *@
+    <input type="number" class="form-control d-none" id="id" name="id" placeholder="ID" asp-for="@Encomienda.id">
+    
+    <div class="col-12">
         <label for="descripcion" class="form-label">Descripcion:</label>
         <input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="Descripcion" asp-for="@Encomienda.descripcion">
     </div>
