@@ -16,3 +16,12 @@ C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\ob
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\Marlon JG\Desktop\AVANCES\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\crisc\Downloads\client\MisionTicCiclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
