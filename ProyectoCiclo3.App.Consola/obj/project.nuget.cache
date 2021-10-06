@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kR9HuBXqMWCPWp8bmd+q9V9H78I9yNxoHhjwW2OnRSM9i5wEjSXMHoLSV7gAxGr7/z3GcFE/pN4k6FCxpOdPrA==",
+  "dgSpecHash": "R3zYKwr8SjEA2pUgraPyAjHzhpcW/qe873ZohzRC/PEABsjDQCqQtTexNX2aq2WIy/oduz3xForEYAh1zVR6vg==",
   "success": true,
-  "projectFilePath": "D:\\certificados\\MISION TIC 2022\\3 DESARROLLO 27\\Proyecto clase\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
+  "projectFilePath": "C:\\Users\\Marlon JG\\Desktop\\AVANCES\\MisionTicCiclo3\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marlon JG\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Marlon JG\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
