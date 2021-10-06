@@ -26,7 +26,18 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Encomienda GetEncomiendaWithId(int id){
             return Encomienda.SingleOrDefault(b => b.id == id);
         }
-
+        
+        public Encomienda Create(Encomienda newEncomienda)
+        {
+           if(Encomienda.Count > 0){
+           newEncomienda.id=Encomienda.Max(r => r.id) +1; 
+            }else{
+               newEncomienda.id = 1; 
+            }
+           Encomienda.Add(newEncomienda);
+           return newEncomienda;
+        }
+        
         public Encomienda Update(Encomienda newEncomienda){
             var orden= Encomienda.SingleOrDefault(b => b.id == newEncomienda.id);
             if(orden != null){
@@ -37,5 +48,13 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             }
         return orden;
         }
+
+        public void Delete(int id)
+        {
+        var orden= Encomienda.SingleOrDefault(b => b.id == id);
+        Encomienda.Remove(orden);
+        return;
+        }
+
     }
 }

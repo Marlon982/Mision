@@ -1,36 +1,33 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.FormServiciosModel
 @{
 }
 
+
 @* <div class="text-center"> *@
-<form action="" class="row g-3">
-    <div class="col-md-1">
-    <label for="id" class="form-label">ID:</label>
-    <input type="number" class="form-control" id="id" name="id" placeholder="ID">
-    </div>    
+<form method="post" class="row g-3">
+   
     <div class="col-md-4">
-        @* Pendiente por validar origen y destino *@
         <label for="origen" class="form-label">Origen:</label>
-        <input type="number" class="form-control" id="origen" name="origen" placeholder="Origen">
+        <input type="text" class="form-control" id="origen" placeholder="Origen" asp-for="Servicios.origen" required>
     </div>
     <div class="col-md-4">
         <label for="destino" class="form-label">Destino:</label>
-        <input type="number" class="form-control" id="destino" name="destino" placeholder="Destino">
+        <input type="text" class="form-control" id="destino" placeholder="Destino" asp-for="Servicios.destino" required>
     </div>
     <div class="col-md">
         <label for="fecha" class="form-label">Fecha:</label>
-        <input type="datetime" class="form-control" id="fecha" name="fecha" placeholder="Fecha">
+        <input type="Date" class="form-control" id="fecha" placeholder="Fecha" asp-for="Servicios.fecha" required>
     </div>
     <div class="col-md">
         <label for="hora" class="form-label">Hora:</label>
-        <input type="text" class="form-control" id="hora" name="hora" placeholder="Hora">
-        @* Pendiente por definir *@
+        <input type="time" class="form-control" id="hora" placeholder="Hora" asp-for="Servicios.hora" required>
     </div>
     <div class="col-md-12"><p></p></div>
     
     <div class="col-12">
         <label for="encomienda" class="form-label">Encomienda:</label>
-        <input type="number" class="form-control" id="encomienda" name="encomienda" placeholder="Encomienda">
+        <input type="number" class="form-control" id="encomienda" placeholder="Encomienda" asp-for="Servicios.encomienda" required>
     </div>
     <div class="col-12 text-center">
         <hr>
