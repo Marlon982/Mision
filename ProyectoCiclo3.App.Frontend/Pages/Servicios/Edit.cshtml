@@ -6,10 +6,9 @@
 
 @* <div class="text-center"> *@
 <form method="post" class="row g-3">
-    <div class="col-md-1">
-    <label for="id" class="form-label">ID:</label>
+    @* <label for="id" class="form-label">ID:</label> *@
     <input type="number" class="form-control d-none" id="id" name="id" placeholder="ID" asp-for="@servicio.id">
-    </div>    
+    
     <div class="col-md-4">
         <label for="origen" class="form-label">Origen:</label>
         <input type="text" class="form-control" id="origen" name="origen" placeholder="Origen" asp-for="@servicio.origen">
@@ -18,11 +17,11 @@
         <label for="destino" class="form-label">Destino:</label>
         <input type="text" class="form-control" id="destino" name="destino" placeholder="Destino" asp-for="@servicio.destino">
     </div>
-    <div class="col-md">
+    <div class="col-md-2">
         <label for="fecha" class="form-label">Fecha:</label>
-        <input type="Date" class="form-control" id="fecha" name="fecha" placeholder="Fecha" asp-for="@servicio.fecha">
+        <input type="date" class="form-control" id="fecha" name="fecha" placeholder="Fecha" asp-for="@servicio.fecha">
     </div>
-    <div class="col-md">
+    <div class="col-md-2">
         <label for="hora" class="form-label">Hora:</label>
         <input type="time" class="form-control" id="hora" name="hora" placeholder="Hora" asp-for="@servicio.hora">
     </div>
