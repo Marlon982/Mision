@@ -7,7 +7,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
     public class RepositorioUsuarios
     {
-        
+        // List<Usuarios> Usuarios;
         private readonly AppContext _appContext = new AppContext();   
 
         public IEnumerable<Usuarios> GetAll()
