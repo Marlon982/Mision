@@ -3,37 +3,60 @@
 @{
     var servicio = Model.Servicios;
 }
-
+ 
 @* <div class="text-center"> *@
 <form method="post" class="row g-3">
     @* <label for="id" class="form-label">ID:</label> *@
-    <input type="number" class="form-control d-none" id="id" name="id" placeholder="ID" asp-for="@servicio.id">
+    <input type="number" class="form-control d-none" id="id" placeholder="ID" asp-for="@servicio.id">
     
     <div class="col-md-4">
         <label for="origen" class="form-label">Origen:</label>
-        <input type="text" class="form-control" id="origen" name="origen" placeholder="Origen" asp-for="@servicio.origen">
+        @* <input type="text" class="form-control" id="origen" name="origen" placeholder="Origen" name="origen"> *@
+        <select asp-for="@servicio.origen" class="form-control" required>
+            <option value="">-</option>
+            @foreach (var Usuarios in Model.Users)
+            {
+                <option value="@Usuarios.id">@Usuarios.nombre @Usuarios.apellidos - @Usuarios.ciudad</option>
+            }
+        </select>
     </div>
     <div class="col-md-4">
         <label for="destino" class="form-label">Destino:</label>
-        <input type="text" class="form-control" id="destino" name="destino" placeholder="Destino" asp-for="@servicio.destino">
+        @* <input type="text" class="form-control" id="destino" name="destino" placeholder="Destino" name="destino"> *@
+        <select asp-for="@servicio.destino" class="form-control" required>
+            <option value="">-</option>
+            @foreach (var Usuarios in Model.Users)
+            {
+                <option value="@Usuarios.id">@Usuarios.nombre @Usuarios.apellidos - @Usuarios.ciudad</option>
+            }
+        </select>
     </div>
     <div class="col-md-2">
         <label for="fecha" class="form-label">Fecha:</label>
-        <input type="date" class="form-control" id="fecha" name="fecha" placeholder="Fecha" asp-for="@servicio.fecha">
+        <input type="date" class="form-control" id="fecha" asp-for="@servicio.fecha" placeholder="Fecha">
     </div>
     <div class="col-md-2">
         <label for="hora" class="form-label">Hora:</label>
-        <input type="time" class="form-control" id="hora" name="hora" placeholder="Hora" asp-for="@servicio.hora">
+        <input type="time" class="form-control" id="hora" asp-for="@servicio.hora" placeholder="Hora">
     </div>
     <div class="col-md-12"><p></p></div>
     
     <div class="col-12">
         <label for="encomienda" class="form-label">Encomienda:</label>
-        <input type="number" class="form-control" id="encomienda" name="encomienda" placeholder="Encomienda" asp-for="@servicio.encomienda">
+        @* <input type="number" class="form-control" id="encomienda" name="encomienda" placeholder="Encomienda" name="encomienda"> *@
+        <select asp-for="@servicio.encomienda" class="form-control" required>
+            <option value="">-</option>
+            @foreach (var Encomienda in Model.Encomiendas)
+            {
+                <option value="@Encomienda.id">@Encomienda.descripcion - @Encomienda.peso</option>
+            }
+        </select>
     </div>
     <div class="col-12 text-center">
         <hr>
         <button type="submit" class="btn btn-success">Enviar</button>
+        <a class="btn btn-info" asp-page="/Servicios/List"><i
+                    class="fas fa-adjust"></i>Volver</a>
     </div>
 </form>
 @* </div> *@

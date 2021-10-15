@@ -9,7 +9,8 @@
    
     <div class="col-md-4">
         <label for="origen" class="form-label">Origen:</label>
-        <select asp-for="Servicios.origen" class="form-control">
+        <select name="origen" class="form-control" required>
+            <option value="">-</option>
             @foreach (var Usuarios in Model.Users)
             {
                 <option value="@Usuarios.id">@Usuarios.nombre @Usuarios.apellidos - @Usuarios.ciudad</option>
@@ -18,7 +19,8 @@
     </div>
     <div class="col-md-4">
         <label for="destino" class="form-label">Destino:</label>
-        <select asp-for="Servicios.destino" class="form-control">
+        <select name="destino" class="form-control" required>
+            <option value="">-</option>
             @foreach (var Usuarios in Model.Users)
             {
                 <option value="@Usuarios.id">@Usuarios.nombre @Usuarios.apellidos - @Usuarios.ciudad</option>
@@ -27,17 +29,18 @@
     </div>
     <div class="col-md-2">
         <label for="fecha" class="form-label">Fecha:</label>
-        <input type="date" class="form-control" id="fecha" placeholder="Fecha" asp-for="Servicios.fecha" required>
+        <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" required>
     </div>
     <div class="col-md-2">
         <label for="hora" class="form-label">Hora:</label>
-        <input type="time" class="form-control" id="hora" placeholder="Hora" asp-for="Servicios.hora" required>
+        <input type="time" class="form-control" id="hora" placeholder="Hora" name="hora" required>
     </div>
     <div class="col-md-12"><p></p></div>
     
     <div class="col-12">
         <label for="encomienda" class="form-label">Encomienda:</label>
-        <select asp-for="Servicios.encomienda" class="form-control">
+        <select name="encomienda" class="form-control" required>
+            <option value="">-</option>
             @foreach (var Encomienda in Model.Encomiendas)
             {
                 <option value="@Encomienda.id">@Encomienda.descripcion - @Encomienda.peso</option>
@@ -47,6 +50,8 @@
     <div class="col-12 text-center">
         <hr>
         <button type="submit" class="btn btn-success">Enviar</button>
+        <a class="btn btn-info" asp-page="/Servicios/List"><i
+                    class="fas fa-adjust"></i>Volver</a>
     </div>
 </form>
 @* </div> *@

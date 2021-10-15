@@ -50,10 +50,10 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("destino")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("destinoid")
+                        .HasColumnType("int");
 
-                    b.Property<int>("encomienda")
+                    b.Property<int?>("encomiendaid")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("fecha")
@@ -62,10 +62,16 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                     b.Property<string>("hora")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("origen")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("origenid")
+                        .HasColumnType("int");
 
                     b.HasKey("id");
+
+                    b.HasIndex("destinoid");
+
+                    b.HasIndex("encomiendaid");
+
+                    b.HasIndex("origenid");
 
                     b.ToTable("Servicios");
                 });
@@ -95,6 +101,27 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("ProyectoCiclo3.App.Dominio.Servicios", b =>
+                {
+                    b.HasOne("ProyectoCiclo3.App.Dominio.Usuarios", "destino")
+                        .WithMany()
+                        .HasForeignKey("destinoid");
+
+                    b.HasOne("ProyectoCiclo3.App.Dominio.Encomienda", "encomienda")
+                        .WithMany()
+                        .HasForeignKey("encomiendaid");
+
+                    b.HasOne("ProyectoCiclo3.App.Dominio.Usuarios", "origen")
+                        .WithMany()
+                        .HasForeignKey("origenid");
+
+                    b.Navigation("destino");
+
+                    b.Navigation("encomienda");
+
+                    b.Navigation("origen");
                 });
 #pragma warning restore 612, 618
         }
