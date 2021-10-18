@@ -3,16 +3,23 @@
 @{
     var Encomienda = Model.Encomienda;
 }
- 
-<ul class="list-group list-group-flush">
-  <li class="list-group-item"> <b>ID: </b> @Encomienda.id</li>
-  <li class="list-group-item"> <b>Descripción: </b> @Encomienda.descripcion</li>
-  <li class="list-group-item"> <b>PESO Kg: </b> @Encomienda.peso</li>
-  <li class="list-group-item"><b>Tipo: </b> @Encomienda.tipo</li>
-  <li class="list-group-item"><b>Presentación: </b> @Encomienda.presentacion</li>
-  <div class="col-12 text-center">
-        <hr>
-        <a class="btn btn-info" asp-page="/Encomienda/List"><i
-                    class="fas fa-adjust"></i>Volver</a>
+
+<div class="card mb-3" style="max-width: 30rem;">
+    <img height="200px" src="https://cdn.atomix.vg/wp-content/uploads/2021/03/New-Project-10-2.jpg"
+        class="card-img-top" alt="...">
+    <div class="card-body text-white bg-warning">
+        <h5 class="card-title text-center bi bi-mailbox"> ENCOMIENDA</h5>
     </div>
-</ul>	
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"> <b>ID: </b> @Encomienda.id<br>
+            <b>Descripción: </b> @Encomienda.descripcion
+        </li>
+        <li class="list-group-item"> <b>PESO Kg: </b> @Encomienda.peso <br>
+            <b>Tipo: </b> @Encomienda.tipo <br>
+            <b>Presentación: </b> @Encomienda.presentacion
+        </li>
+    </ul>
+    <div class="card-body text-center">
+        <a class="btn btn-info" asp-page="/Encomienda/List"><i class="fas fa-adjust"></i>Volver</a>
+    </div>
+</div>
