@@ -45,7 +45,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             newServicios.destino = _appContext.Usuarios.Find(destino);
             newServicios.origen = _appContext.Usuarios.Find(origen);
             newServicios.encomienda = _appContext.Encomienda.Find(encomienda);
-            newServicios.fecha = DateTime.Parse(fecha);
+            newServicios.fecha = fecha;
             newServicios.hora = hora;
             var addServicios = _appContext.Servicios.Add(newServicios);
             _appContext.SaveChanges();

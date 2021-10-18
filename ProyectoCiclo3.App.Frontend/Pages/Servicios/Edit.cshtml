@@ -7,7 +7,7 @@
 @* <div class="text-center"> *@
 <form method="post" class="row g-3">
     @* <label for="id" class="form-label">ID:</label> *@
-    <input type="number" class="form-control d-none" id="id" placeholder="ID" asp-for="@servicio.id">
+    <input type="number" class="form-control d-none" id="id" placeholder="ID" name="id" value="@servicio.id">
     
     <div class="col-md-4">
         <label for="origen" class="form-label">Origen:</label>
@@ -33,11 +33,11 @@
     </div>
     <div class="col-md-2">
         <label for="fecha" class="form-label">Fecha:</label>
-        <input type="date" class="form-control" id="fecha" asp-for="@servicio.fecha" placeholder="Fecha">
+        <input type="date" class="form-control" id="fecha" name="fecha" value="@servicio.fecha" placeholder="Fecha">
     </div>
     <div class="col-md-2">
         <label for="hora" class="form-label">Hora:</label>
-        <input type="time" class="form-control" id="hora" asp-for="@servicio.hora" placeholder="Hora">
+        <input type="time" class="form-control" id="hora" name="hora" value="@servicio.hora" placeholder="Hora">
     </div>
     <div class="col-md-12"><p></p></div>
     
