@@ -59,9 +59,6 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                     b.Property<DateTime>("fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("hora")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int?>("origenid")
                         .HasColumnType("int");
 

@@ -13,12 +13,14 @@
     </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><b>id: </b> @servicio.id <br>
-            <b>Origen: </b> @servicio.origen.nombre @servicio.origen.apellidos <br>
-            <b>Destino: </b> @servicio.destino.nombre @servicio.destino.apellidos
+            <b>Origen: </b> @servicio.origen.nombre @servicio.origen.apellidos 
+            de @servicio.origen.ciudad (@servicio.origen.telefono)<br>
+            <b>Destino: </b> @servicio.destino.nombre @servicio.destino.apellidos 
+            de @servicio.destino.ciudad (@servicio.destino.telefono)
         </li>
-        <li class="list-group-item"><b>Fecha: </b> @servicio.fecha <br>
-            <b>Hora: </b> @servicio.hora <br>
-            <b>Encomienda: </b> @servicio.encomienda.tipo - @servicio.encomienda.descripcion
+        <li class="list-group-item"><b>Fecha y Hora: </b> @servicio.fecha <br>
+            @* <b>Hora: </b> @servicio.hora <br> *@
+            <b>Encomienda: </b> @servicio.encomienda.descripcion - @servicio.encomienda.peso Kg
         </li>
     </ul>
     <div class="card-body text-center">

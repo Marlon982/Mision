@@ -10,8 +10,8 @@
             <th scope="col">Id</th>
             <th scope="col">Origen</th>
             <th scope="col">Destino</th>
-            <th scope="col">Fecha</th>
-            <th scope="col">Hora</th>
+            <th scope="col">Fecha y Hora</th>
+            @* <th scope="col">Hora</th> *@
             <th scope="col">Encomienda</th>
         </tr>
     </thead>
@@ -22,7 +22,7 @@
             <td>@Servicio.origen.nombre @Servicio.origen.apellidos</td>
             <td>@Servicio.destino.nombre @Servicio.destino.apellidos</td>
             <td>@Servicio.fecha</td>
-            <td>@Servicio.hora</td>
+            @* <td>@Servicio.hora</td> *@
             <td>@Servicio.encomienda.tipo - @Servicio.encomienda.descripcion</td>
             <td>
                 <a class="btn btn-success" asp-page="./Details" asp-route-servicioId="@Servicio.id"><i

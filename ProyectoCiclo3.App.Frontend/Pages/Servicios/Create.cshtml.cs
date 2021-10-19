@@ -36,13 +36,13 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             Encomiendas=repositorioEncomienda.GetAll();
         }
 
-        public IActionResult OnPost(int origen, int destino, string fecha, string hora, int encomienda)
+        public IActionResult OnPost(int origen, int destino, string fecha, int encomienda)
         {
             if(!ModelState.IsValid)
             {
                 return Page();
             }            
-            Servicios = repositorioServicio.Create(origen, destino, fecha, hora, encomienda);            
+            Servicios = repositorioServicio.Create(origen, destino, fecha, encomienda);            
             return RedirectToPage("./List");
         }
 
